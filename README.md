@@ -1,3 +1,3 @@
 # Bachelor
 
-This is my Bachelors Project
+This is our Bachelors Project
