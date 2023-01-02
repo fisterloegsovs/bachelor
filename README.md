@@ -1,2 +1,3 @@
-# bachelor
-Bachelors Project
+# Bachelor
+
+This is my Bachelors Project
