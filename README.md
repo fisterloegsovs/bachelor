@@ -1,3 +1,3 @@
 # Bachelor
 
-This is our Bachelors Project
+Læs mig :)
