@@ -1,0 +1,16 @@
+let find (arr: array int) (key: int) : (index: int)
+    ensures { 0 <= index -> index < length arr && arr[index] = key }
+=
+    let ref index = -1 in
+    let ref i = 0 in
+    while i < length arr && index = -1 do
+    
+        invariant { 0 <= i /\ index = -1 \/ 0 <= index /\ index < length arr /\ arr[index] = key}
+        
+        variant   { length arr - i }
+        
+        if arr[i] = key then 
+            index <- i;
+        i <- i + 1
+    done;
+    index
